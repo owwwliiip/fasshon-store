@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="libraries/fontawesome/css/all.min.css" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Style CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Fasshon Store</title>
+  </head>
+  <body>
+    <!-- Cart Header -->
+    <div class="container pt-5">
+      <div class="row cart mb-3">
+        <div class="col text-center">
+          <h3>Your Cart</h3>
+          <p>Make sure to complete the payment</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Cart Header -->
+
+    <!-- Breadcrumb -->
+    <div class="container">
+      <nav>
+        <ol class="breadcrumb bg-transparent">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Cart Checkout
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <!-- End Breadcrumb -->
+
+    <!-- Checkout -->
+    <section class="checkout">
+      <div class="container pb-5">
+        <div class="row mb-5 justify-content-between">
+          <div class="col-lg-6">
+            <h5 class="mb-4">Your items</h5>
+            <div class="row mb-3">
+              <div class="col-sm-2 col-md-2 d-none d-sm-block">
+                <img
+                  src="images/products/cart/Mask Group 20@2x.png"
+                  alt="item-1"
+                />
+              </div>
+              <div class="col-4 col-sm-4 col-md-4 mt-1">
+                <h6>VetonG T-Shirt</h6>
+                <p>IDR. 249.000</p>
+              </div>
+              <div class="col-6 col-sm-4 col-md-4 mt-1">
+                <a href="" class="btn-minplus" role="button"
+                  ><img src="images/icons/btn-min@2x.png" alt="btn-min"
+                /></a>
+                <span class="mx-3" style="font-size: 18px;">2</span>
+                <a href="" class="btn-minplus" role="button"
+                  ><img src="images/icons/btn-plus@2x.png" alt="btn-plus"
+                /></a>
+              </div>
+              <div class="col-2 col-sm-2 col-md-2 mt-1 text-right">
+                <a href="" class="btn-delete" role="button"
+                  ><img src="images/icons/btn-delete@2x.png" alt="btn-plus"
+                /></a>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-sm-2 col-md-2 d-none d-sm-block">
+                <img
+                  src="images/products/cart/Mask Group 20@2x.png"
+                  alt="item-1"
+                />
+              </div>
+              <div class="col-4 col-sm-4 col-md-4 mt-1">
+                <h6>VetonG T-Shirt</h6>
+                <p>IDR. 249.000</p>
+              </div>
+              <div class="col-6 col-sm-4 col-md-4 mt-1">
+                <a href="" class="btn-minplus" role="button"
+                  ><img src="images/icons/btn-min@2x.png" alt="btn-min"
+                /></a>
+                <span class="mx-3" style="font-size: 18px;">2</span>
+                <a href="" class="btn-minplus" role="button"
+                  ><img src="images/icons/btn-plus@2x.png" alt="btn-plus"
+                /></a>
+              </div>
+              <div class="col-2 col-sm-2 col-md-2 mt-1 text-right">
+                <a href="" class="btn-delete" role="button"
+                  ><img src="images/icons/btn-delete@2x.png" alt="btn-plus"
+                /></a>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-sm-2 col-md-2 d-none d-sm-block">
+                <img
+                  src="images/products/cart/Mask Group 20@2x.png"
+                  alt="item-1"
+                />
+              </div>
+              <div class="col-4 col-sm-4 col-md-4 mt-1">
+                <h6>VetonG T-Shirt</h6>
+                <p>IDR. 249.000</p>
+              </div>
+              <div class="col-6 col-sm-4 col-md-4 mt-1">
+                <a href="" class="btn-minplus" role="button"
+                  ><img src="images/icons/btn-min@2x.png" alt="btn-min"
+                /></a>
+                <span class="mx-3" style="font-size: 18px;">2</span>
+                <a href="" class="btn-minplus" role="button"
+                  ><img src="images/icons/btn-plus@2x.png" alt="btn-plus"
+                /></a>
+              </div>
+              <div class="col-2 col-sm-2 col-md-2 mt-1 text-right">
+                <a href="" class="btn-delete" role="button"
+                  ><img src="images/icons/btn-delete@2x.png" alt="btn-plus"
+                /></a>
+              </div>
+            </div>
+            <!-- Address -->
+            <h5 class="mb-3" style="margin-top: 100px;">Your Address</h5>
+            <form>
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address"
+                  placeholder="Address"
+                />
+              </div>
+              <div class="form-group">
+                <label for="address2">Address II</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address2"
+                  placeholder="Additional Address"
+                />
+              </div>
+              <div class="form-group">
+                <label for="city">City</label>
+                <select class="form-control" id="city">
+                  <option>Select City</option>
+                  <option>Surabaya</option>
+                  <option>Jakarta</option>
+                  <option>Bandung</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <div class="col mb-3">
+                  <label for="province">Province</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Province"
+                  />
+                </div>
+                <div class="col">
+                  <label for="postal-code">Postal Code</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Postal Code"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="country">Country</label>
+                <select class="form-control" id="country">
+                  <option>Select Country</option>
+                  <option>Indonesia</option>
+                  <option>Singapore</option>
+                  <option>Australia</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Phone Number"
+                />
+              </div>
+            </form>
+            <!-- End Address -->
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-light mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Checkout Details</h5>
+                <div class="row mb-2">
+                  <div class="col">
+                    <h6 class="m-0">VetonG T-Shirt</h6>
+                    <small>2 items</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <p class="m-0 align-self-center">IDR. 498.000</p>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col">
+                    <h6 class="m-0">VetonG T-Shirt</h6>
+                    <small>2 items</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <p class="m-0 align-self-center">IDR. 498.000</p>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col">
+                    <h6 class="m-0">VetonG T-Shirt</h6>
+                    <small>2 items</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <p class="m-0 align-self-center">IDR. 498.000</p>
+                  </div>
+                </div>
+                <hr />
+                <div class="row mb-2">
+                  <div class="col">
+                    <h6 class="m-0">Courier</h6>
+                    <small>JNE Express</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <p class="m-0 align-self-center">IDR. 49.000</p>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col">
+                    <h6 class="m-0">Tax</h6>
+                    <small>Country 2,5%</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <p class="m-0 align-self-center">IDR. 37.350</p>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col">
+                    <h6 class="m-0">Fasshon 1<sup>st</sup> Promo</h6>
+                    <small>Free Shipping</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <p class="m-0 align-self-center" style="color: #de1515;">
+                      -IDR. 49.000
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col">
+                    <h6 class="m-0" style="font-weight: 500;">Total Price</h6>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <p
+                      class="m-0 align-self-center"
+                      style="font-weight: 500; color: #222831;"
+                    >
+                      IDR 1.456.650
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <a
+                  class="btn btn-block btn-cancel"
+                  href="index.html"
+                  role="button"
+                  >Cancel</a
+                >
+              </div>
+              <div class="col">
+                <a
+                  class="btn btn-block btn-checkout"
+                  href="#"
+                  role="button"
+                  data-toggle="modal"
+                  data-target="#success-checkout"
+                  >Checkout</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Checkout -->
+
+    <!-- Success Checkout Modal -->
+    <div
+      class="modal fade"
+      id="success-checkout"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <img
+              class="mb-5"
+              src="images/icons/ic-success-checkout@2x.png"
+              alt="icon-success-checkout"
+            />
+            <h3>Checkout Success</h3>
+            <p>Your clothes will come in a few days</p>
+            <a class="btn btn-back-home mt-4" href="index.html" role="button"
+              >Home</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Success Checkout Modal -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row pt-4 pb-2 justify-content-between">
+          <div class="col-2">
+            <img src="images/icons/logo@2x.png" alt="fashon-store-logo" />
+          </div>
+          <div class="col-5">
+            <div class="nav sosmed justify-content-end">
+              <a href="#" class="nav-link facebook"
+                ><img src="images/icons/facebook@2x.png" alt="facebook"
+              /></a>
+              <a href="#" class="nav-link"
+                ><img src="images/icons/instagram@2x.png" alt="instagram"
+              /></a>
+              <a href="#" class="nav-link"
+                ><img src="images/icons/twitter@2x.png" alt="twitter"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>
+              All Rights Reserved by
+              <span style="font-weight: bold;">Fasshon Store</span> Copyright
+              2020.
+            </p>
+          </div>
+          <div class="col-6 text-right">
+            <nav class="nav justify-content-end">
+              <a class="nav-link" href="#">Jobs</a>
+              <a class="nav-link" href="#">Developer</a>
+              <a class="nav-link" href="#">Terms</a>
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- jQuery, then Popper.js, Bootstap JS -->
+    <script src="libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="libraries/popper/popper.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="libraries/fontawesome/js/all.min.js"></script>
+  </body>
+</html>

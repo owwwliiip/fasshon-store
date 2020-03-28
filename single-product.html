@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="libraries/fontawesome/css/all.min.css" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Style CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Fasshon Store</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/icons/logo@2x.png" alt="fasshon-store-logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="category.html">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Designer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <div class="nav-shopping-bag">
+            <a class="nav-link" href="cart.html"
+              ><i class="fa fa-shopping-bag"></i>
+              <span class="hover">My Cart</span>(<span
+                style="font-weight: bold; color: #fd7013;"
+                >6</span
+              >)</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Breadcrumb -->
+    <div class="container">
+      <nav>
+        <ol class="breadcrumb bg-transparent">
+          <li class="breadcrumb-item"><a href="#">Category</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Single Product
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <!-- End Breadcrumb -->
+
+    <!-- Single Product -->
+    <section class="single-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <figure class="figure">
+              <img
+                src="images/products/sp1@2x.png"
+                class="figure-img img-fluid"
+                alt="single-product"
+              />
+              <figcaption
+                class="figure-caption product-thumbnail d-flex justify-content-between"
+              >
+                <a href=""
+                  ><img
+                    src="images/products/thumbnails/thumb1@2x.png"
+                    alt="thumbnail-1"
+                /></a>
+                <a href=""
+                  ><img
+                    src="images/products/thumbnails/thumb2@2x.png"
+                    alt="thumbnail-2"
+                /></a>
+                <a href=""
+                  ><img
+                    src="images/products/thumbnails/thumb3@2x.png"
+                    alt="thumbnail-3"
+                /></a>
+                <a href=""
+                  ><img
+                    src="images/products/thumbnails/thumb4@2x.png"
+                    alt="thumbnail-4"
+                /></a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4">
+            <h3>VetonG T-Shirt</h3>
+            <p>IDR. 249.000</p>
+            <a href="" class="btn-minplus" role="button"
+              ><img src="images/icons/btn-min@2x.png" alt="btn-min"
+            /></a>
+            <span class="mx-3" style="font-size: 18px;">2</span>
+            <a href="" class="btn-minplus" role="button"
+              ><img src="images/icons/btn-plus@2x.png" alt="btn-plus"
+            /></a>
+            <div class="btn-main">
+              <a class="btn btn-block btn-cart" href="#" role="button"
+                >Add to Cart</a
+              >
+              <a class="btn btn-block btn-whislist" href="#" role="button"
+                >Add to Wislisht</a
+              >
+            </div>
+            <div class="designed-by">
+              <p>Designed by</p>
+              <div class="row">
+                <div class="col-2">
+                  <img src="images/designers/designer1@2x.png" alt="designer" />
+                </div>
+                <div class="col designer-attr">
+                  <h5>Edward Bruce</h5>
+                  <p><span style="color: #222831;">14.2K</span> Followers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Single Product -->
+
+    <!-- Product Description -->
+    <section class="product-description bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="description-tab"
+                  data-toggle="tab"
+                  href="#description"
+                  role="tab"
+                  aria-controls="description"
+                  aria-selected="true"
+                  >Product Description</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="review-tab"
+                  data-toggle="tab"
+                  href="#review"
+                  role="tab"
+                  aria-controls="review"
+                  aria-selected="false"
+                  >Reviews (<span style="font-weight: bold;">20</span>)</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content p-3" id="myTabContent">
+              <div
+                class="tab-pane product-description-tab fade show active"
+                id="description"
+                role="tabpanel"
+                aria-labelledby="description-tab"
+              >
+                <p>
+                  We use a medium-weight linen and cotton blend fabric for our
+                  shirts. It has an understated luster and is especially great
+                  for the summer and fall. The blend of airy linen and soft
+                  cotton fibers creates a versatile and high-performance shirt
+                  that keeps you cool, yet looking smart at any occasion. An
+                  added benefit is that it isn't as fussy as a pure linen or
+                  pure cotton shirt.
+                </p>
+                <p>
+                  Designed for casual versatility, our shirts feature a slightly
+                  shorter tail offering you the option to wear it untucked. Our
+                  shirts come in a flattering and modern semi-spread collar that
+                  compliments men of every build. All our shirts come with
+                  removable metal collar stays to make sure your collar never
+                  gets curly or unruly. Our collar stays will keep your shirt
+                  collar slick, smart and perfectly in place.
+                </p>
+              </div>
+              <div
+                class="tab-pane product-review fade"
+                id="review"
+                role="tabpanel"
+                aria-labelledby="review-tab"
+              >
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="images/users/user-1@2x.png" alt="user-1" />
+                  </div>
+                  <div class="col">
+                    <h5>Troye Dart</h5>
+                    <p>
+                      My girlfriend love this T-Shirt so much. She said it's so
+                      comfortable.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="images/users/user-2@2x.png" alt="user-2" />
+                  </div>
+                  <div class="col">
+                    <h5>Vannesa Swan</h5>
+                    <p>
+                      I love this T-Shirt. The design is so cool.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="images/users/user-3@2x.png" alt="user-3" />
+                  </div>
+                  <div class="col">
+                    <h5>Jennie Kim</h5>
+                    <p>
+                      What a cool T-Shirt. Love this so much.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="images/users/user-4@2x.png" alt="user-4" />
+                  </div>
+                  <div class="col">
+                    <h5>Camela Bob</h5>
+                    <p>
+                      It's so comfortable to use. Love the design too. Cheers
+                      for the designer.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="images/users/user-1@2x.png" alt="user-1" />
+                  </div>
+                  <div class="col">
+                    <h5>Troye Dart</h5>
+                    <p>
+                      My girlfriend love this T-Shirt so much. She said it's so
+                      comfortable.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="images/users/user-2@2x.png" alt="user-2" />
+                  </div>
+                  <div class="col">
+                    <h5>Vannesa Swan</h5>
+                    <p>
+                      I love this T-Shirt. The design is so cool.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Product Description -->
+
+    <!-- Similar Product -->
+    <section class="similar-product p-5">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col">
+            <h3>Similar Product</h3>
+            <p>Product you might love too</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <figure class="figure">
+              <img
+                src="images/products/similar/similar-1@2x.png"
+                class="figure-img img-fluid"
+                alt="similar-1"
+              />
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h5>VetonB T-Shirt</h5>
+                  </div>
+                  <div class="col text-right">
+                    <h6>IDR. 249.000</h6>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure class="figure">
+              <img
+                src="images/products/similar/similar-2@2x.png"
+                class="figure-img img-fluid"
+                alt="similar-2"
+              />
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h5>Black FaithnYarn</h5>
+                  </div>
+                  <div class="col text-right">
+                    <h6>IDR. 249.000</h6>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure class="figure">
+              <img
+                src="images/products/similar/similar-3@2x.png"
+                class="figure-img img-fluid"
+                alt="similar-3"
+              />
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h5>Juice White</h5>
+                  </div>
+                  <div class="col text-right">
+                    <h6>IDR. 249.000</h6>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Similar Product -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row pt-4 pb-2 justify-content-between">
+          <div class="col-2">
+            <img src="images/icons/logo@2x.png" alt="fashon-store-logo" />
+          </div>
+          <div class="col-5">
+            <div class="nav sosmed justify-content-end">
+              <a href="#" class="nav-link facebook"
+                ><img src="images/icons/facebook@2x.png" alt="facebook"
+              /></a>
+              <a href="#" class="nav-link"
+                ><img src="images/icons/instagram@2x.png" alt="instagram"
+              /></a>
+              <a href="#" class="nav-link"
+                ><img src="images/icons/twitter@2x.png" alt="twitter"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>
+              All Rights Reserved by
+              <span style="font-weight: bold;">Fasshon Store</span> Copyright
+              2020.
+            </p>
+          </div>
+          <div class="col-6 text-right">
+            <nav class="nav justify-content-end">
+              <a class="nav-link" href="#">Jobs</a>
+              <a class="nav-link" href="#">Developer</a>
+              <a class="nav-link" href="#">Terms</a>
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- jQuery, then Popper.js, Bootstap JS -->
+    <script src="libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="libraries/popper/popper.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="libraries/fontawesome/js/all.min.js"></script>
+  </body>
+</html>

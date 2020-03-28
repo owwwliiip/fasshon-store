@@ -1,0 +1,421 @@
+body {
+  font-family: "Roboto";
+  color: #222831;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #222831;
+  border-bottom: 1px solid #2f3744;
+}
+
+.navbar .navbar-brand img {
+  width: 120px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  margin-right: 24px;
+  font-size: 20px;
+  font-weight: 300;
+  color: white !important;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fd7013 !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #fd7013 !important;
+}
+
+.navbar .nav-shopping-bag .nav-link {
+  color: white;
+}
+
+.navbar .nav-shopping-bag .nav-link .hover:hover {
+  color: #fd7013;
+}
+
+.navbar .nav-shopping-bag .nav-link .fa-shopping-bag {
+  font-size: 20px;
+}
+
+/* Carousel */
+.carousel {
+  height: 450px;
+  background-color: #222831;
+  color: white;
+}
+
+.carousel h1 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.carousel p {
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.carousel .btn {
+  background-color: #fd7013;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.carousel .btn:hover {
+  background-color: #e05d11;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.carousel img {
+  max-width: 250px;
+}
+
+/* New Arrival */
+.new-arrival h3,
+.designer h3,
+.similar-product h3,
+.cart h3,
+.category h3,
+.modal h3 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+
+.new-arrival p,
+.designer p,
+.similar-product p,
+.cart p,
+.category p,
+.modal p {
+  font-weight: 300;
+  font-style: italic;
+  color: #b6b6b6;
+}
+
+.figure h5 {
+  font-weight: 500;
+  color: #222831;
+  font-size: 20px;
+}
+
+.figure p {
+  font-weight: normal;
+  color: #b6b6b6;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.figure-img-arrival {
+  position: relative;
+}
+
+.figure-img-arrival a img {
+  width: 35px;
+}
+
+.figure-img-arrival a {
+  position: absolute;
+  top: 0;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img-arrival:hover a {
+  opacity: 1;
+}
+
+/* Designer */
+.figure-img-designer img {
+  max-width: 100px;
+}
+
+.designer a {
+  font-size: 20px;
+  color: #222831;
+}
+
+.designer a:hover {
+  color: #fd7013;
+}
+
+/* Footer */
+footer {
+  background-color: #222831;
+  color: white;
+  font-weight: 300;
+  /* font-size: 18px; */
+}
+
+footer img {
+  width: 100px;
+}
+
+footer .nav img {
+  width: 20px;
+}
+
+footer .nav .facebook img {
+  width: 15px;
+}
+
+footer .nav img:hover,
+footer .nav .facebook img:hover {
+  filter: brightness(80%);
+}
+
+footer .nav a.nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  color: white;
+}
+
+footer .nav a.nav-link:hover {
+  color: #fd7013;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 20px;
+  font-weight: 300;
+  color: #222831;
+  padding-left: 0;
+  padding-top: 30px;
+}
+
+.breadcrumb a {
+  font-weight: 500;
+  color: #222831;
+}
+
+.breadcrumb a:hover {
+  color: #fd7013;
+}
+
+/* Single Product */
+.single-product .figure-img {
+  max-width: 100%;
+}
+
+.product-thumbnail {
+  background-color: white;
+  width: 380px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: auto;
+  transform: translateY(-50px);
+}
+
+.product-thumbnail a img {
+  width: 80px;
+}
+
+.single-product p {
+  font-size: 22px;
+  color: #b6b6b6;
+}
+
+.single-product a.btn-minplus img,
+.checkout a.btn-minplus img,
+.checkout a.btn-delete img {
+  width: 35px;
+}
+
+.single-product a.btn-minplus img:hover,
+.checkout a.btn-minplus img:hover,
+.checkout a.btn-delete img:hover {
+  filter: brightness(90%);
+}
+
+.btn-main {
+  margin: 50px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.btn-main .btn {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.btn-main .btn-cart,
+.checkout .btn-checkout {
+  background-color: #fd7013;
+  color: white;
+}
+
+.btn-main .btn-cart:hover,
+.checkout .btn-checkout:hover {
+  background-color: #e05d11;
+  color: white;
+}
+
+.btn-main .btn-whislist,
+.checkout .btn-cancel,
+.btn-back-home {
+  background-color: #eeeeee;
+  color: #b6b6b6;
+  font-weight: 300;
+}
+
+.btn-main .btn-whislist:hover,
+.checkout .btn-cancel:hover,
+.btn-back-home:hover {
+  background-color: #dddddd;
+  color: #b6b6b6;
+  font-weight: 300;
+}
+
+.designed-by h5 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.designed-by p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b6b6b6;
+}
+
+.designed-by img {
+  width: 60px;
+}
+
+.designed-by .designer-attr {
+  padding-top: 8px;
+  padding-left: 20px;
+}
+
+/* Product Description */
+.product-description {
+  height: 350px;
+  padding-top: 30px;
+}
+
+.product-description .nav-tabs .nav-item .nav-link {
+  color: #b6b6b6;
+}
+
+.product-description .nav-tabs .nav-item .active.nav-link {
+  color: #222831;
+}
+
+.product-description .tab-content {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.product-description .tab-content p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #b6b6b6;
+  line-height: 30px;
+}
+
+.product-description-tab {
+  height: 280px;
+  overflow: auto;
+}
+
+.product-review {
+  height: 280px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.product-description .tab-content .product-review img {
+  width: 45px;
+}
+
+.product-description .tab-content .product-review h5 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 3px;
+}
+
+.product-description .tab-content .product-review p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b6b6b6;
+}
+
+/* Similar Product */
+.similar-product {
+  margin-top: 50px;
+}
+
+.similar-product .figure .figure-caption h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #b6b6b6;
+}
+
+/* Cart/Checkout */
+.checkout img {
+  width: 60px;
+}
+
+.checkout h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.checkout p {
+  font-size: 14px;
+  color: #b6b6b6;
+}
+
+.checkout form label {
+  font-size: 14px;
+}
+
+.checkout .card h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.checkout .card small {
+  font-size: 14px;
+  color: #bcbcbc !important;
+}
+
+.checkout .card p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1abc7b;
+}
+
+.checkout .btn-cancel,
+.btn-back-home {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.checkout .btn-checkout {
+  font-size: 20px;
+}
+
+.modal img {
+  width: 250px;
+}
+
+/* Category */
+.category .figure .figure-caption h6 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #de1515;
+}
